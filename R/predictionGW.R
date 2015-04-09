@@ -60,7 +60,7 @@ predictionGW<-function(training_set,data_enhancer_svm,listHM,pcClass.string="enh
 
 
     fileoutput<-paste(output.file,".bed",sep="")
-    createBed(test_set,label1="enhancer",p,fileoutput)
+    createBed(test_set,label1="enhancers",p,fileoutput)
 
     return(aucv)
 
